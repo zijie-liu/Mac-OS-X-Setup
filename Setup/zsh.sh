@@ -17,10 +17,14 @@
  sh -c "$(curl -fsSL https://raw.githubusercontent.com/robbyrussell/oh-my-zsh/master/tools/install.sh)"
 
 # zshrc
-plugins=(git colored-man colorize pip python brew osx zsh-syntax-highlighting)
+plugins=(git  colorize pip  brew osx node xcode pod )
 
 # ZSH_THEME="robbyrussell"
 ZSH_THEME="agnoster"
+
+# add powerlevel9k theme
+git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
+ZSH_THEME="powerlevel9k/powerlevel9k"
 
 # bash_profile alias
 alias dir="tree"
