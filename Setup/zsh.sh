@@ -45,6 +45,7 @@ alias chrome="open -a 'Google Chrome'"
 function google() { open /Applications/Google\ Chrome.app/ "http://www.google.com/search?q= $1"; }
 
 
+# font install
 # powerline fonts
 cd Downloads
 # clone
@@ -55,6 +56,10 @@ cd fonts
 # clean-up a bit
 cd ..
 rm -rf fonts
+
+# nerd fonts
+brew tap homebrew/cask-fonts
+brew cask install font-hack-nerd-font
 
 
 brew install zsh-autosuggestions
