@@ -62,6 +62,8 @@ brew tap homebrew/cask-fonts
 brew cask install font-hack-nerd-font
 
 
+
+# brew plugin
 brew install zsh-autosuggestions
 source /usr/local/share/zsh-autosuggestions/zsh-autosuggestions.zsh
 
@@ -74,3 +76,10 @@ source /usr/local/share/zsh-history-substring-search/zsh-history-substring-searc
 
 brew install zsh-completions
 fpath=(/usr/local/share/zsh-completions $fpath)
+
+
+# selection
+# https://callstack.com/blog/supercharge-your-terminal-with-zsh/
+setopt auto_list # automatically list choices on ambiguous completion
+setopt auto_menu # automatically use menu completion
+setopt always_to_end # move cursor to end if word had one match
