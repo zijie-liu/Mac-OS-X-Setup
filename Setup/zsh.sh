@@ -26,6 +26,10 @@ ZSH_THEME="agnoster"
 git clone https://github.com/bhilburn/powerlevel9k.git ~/.oh-my-zsh/custom/themes/powerlevel9k
 ZSH_THEME="powerlevel9k/powerlevel9k"
 
+# add powerlevel10k theme
+git clone https://github.com/romkatv/powerlevel10k.git $ZSH_CUSTOM/themes/powerlevel10k
+ZSH_THEME="powerlevel10k/powerlevel10k"
+
 # bash_profile alias
 alias dir="tree"
 alias ll="ls -al"
