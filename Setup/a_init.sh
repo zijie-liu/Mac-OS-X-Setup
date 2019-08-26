@@ -28,12 +28,15 @@ echo  '[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/e
 
 brew install git tree rmtrash youtube-dl p7zip unzip wget node
 
+brew install yarn
 
 npm install --unsafe-perm -g @angular/cli
 
 npm install -g react-native-cli
 
-brew install yarn
+npm install vue
+
+
 
 # ruby rvm
 \curl -sSL https://get.rvm.io | bash -s stable
