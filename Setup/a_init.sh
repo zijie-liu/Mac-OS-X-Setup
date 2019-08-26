@@ -14,6 +14,8 @@ brew tap caskroom/versions
 brew cask install java
 brew cask install java8
 
+brew tap AdoptOpenJDK/openjdk
+brew cask install adoptopenjdk8
 
 brew install python3
 brew install python@2
@@ -28,6 +30,8 @@ brew install git tree rmtrash youtube-dl p7zip unzip wget node
 
 
 npm install --unsafe-perm -g @angular/cli
+
+npm install -g react-native-cli
 
 brew install yarn
 
@@ -123,4 +127,6 @@ echo \.DS_Store >> .gitignore # ignore .DS_Store in future
 Icon?
 ehthumbs.db
 Thumbs.db
+
+
 
