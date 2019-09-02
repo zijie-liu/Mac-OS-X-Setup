@@ -68,7 +68,7 @@ ZSH_THEME=alien/alien
 # Custom plugins may be added to ~/.oh-my-zsh/custom/plugins/
 # Example format: plugins=(rails git textmate ruby lighthouse)
 # Add wisely, as too many plugins slow down shell startup.
-plugins=(git colorize pip  brew osx node xcode pod )
+plugins=(git colorize pip brew osx node xcode pod )
 
 source $ZSH/oh-my-zsh.sh
 
@@ -99,6 +99,7 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export ALIEN_THEME="red"
+export USE_NERD_FONT=1
 
 export ALIEN_SECTIONS_LEFT=(
   exit
