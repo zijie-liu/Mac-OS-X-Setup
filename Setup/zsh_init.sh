@@ -2,6 +2,12 @@
 # xcode show the build time
 defaults write com.apple.dt.Xcode ShowBuildOperationDuration -bool YES
 
+# install cocoapods
+sudo gem install cocoapods
+
+#  pod update
+pod update
+
 # install brew
 /usr/bin/ruby -e "$(curl -fsSL https://raw.githubusercontent.com/Homebrew/install/master/install)"
 
