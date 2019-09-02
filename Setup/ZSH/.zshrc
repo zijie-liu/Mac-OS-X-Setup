@@ -99,10 +99,14 @@ source $ZSH/oh-my-zsh.sh
 # alias ohmyzsh="mate ~/.oh-my-zsh"
 
 export ALIEN_THEME="red"
+
 export ALIEN_SECTIONS_LEFT=(
   exit
   user
   path
+  vcs_branch:async
+  vcs_status:async
+  vcs_dirty:async
   newline
   ssh
   venv
