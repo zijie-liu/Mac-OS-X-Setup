@@ -20,6 +20,7 @@ brew cask install adoptopenjdk8
 
 # apps
 brew install git tree rmtrash youtube-dl p7zip unzip wget node
+brew cask install iterm2
 
 
 # node JS framework
