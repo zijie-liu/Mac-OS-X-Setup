@@ -64,6 +64,8 @@ rm -rf fonts
 brew tap homebrew/cask-fonts
 git clone https://github.com/ryanoasis/nerd-fonts.git
 
+#iterm2 color scheme
+https://github.com/mbadolato/iTerm2-Color-Schemes.git
 
 # brew plugin
 brew install zsh-autosuggestions
