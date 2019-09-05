@@ -17,14 +17,17 @@ brew cask install java8
 brew tap AdoptOpenJDK/openjdk
 brew cask install adoptopenjdk8
 
+brew tap caskroom/fonts
+
 brew install python3
-brew install python@2
 
 brew install bash
-
+brew install bash-completion@2
 
 
 echo  '[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"' >> ~/.bash_profile
+
+echo "[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion" >> ~/.bash_profile
 
 brew install git tree rmtrash youtube-dl p7zip unzip wget node
 
