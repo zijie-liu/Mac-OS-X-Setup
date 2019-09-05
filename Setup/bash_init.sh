@@ -24,10 +24,15 @@ brew install python3
 brew install bash
 brew install bash-completion@2
 
+brew install ruby 
+export PATH="/usr/local/opt/ruby/bin:$PATH"
+
 
 echo  '[[ -r "/usr/local/etc/profile.d/bash_completion.sh" ]] && . "/usr/local/etc/profile.d/bash_completion.sh"' >> ~/.bash_profile
 
 echo "[ -f /usr/local/etc/bash_completion ] && . /usr/local/etc/bash_completion" >> ~/.bash_profile
+
+
 
 brew install git tree rmtrash youtube-dl p7zip unzip wget node
 
