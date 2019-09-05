@@ -92,44 +92,9 @@ sudo ln -s /Applications/Sublime\ Text.app/Contents/SharedSupport/bin/subl /usr/
 git rm ./*.DS_Store # remove all .DS_Store from git
 echo \.DS_Store >> .gitignore # ignore .DS_Store in future
 
-##ignore this file##
-/target/
-
-.classpath
-.project
-.settings
-##filter databfile、sln file##
-*.mdb
-*.ldb
-*.sln
-##class file##
-*.com
-*.class
-*.dll
-*.exe
-*.o
-*.so
-# compression file
-*.7z
-*.dmg
-*.gz
-*.iso
-*.jar
-*.rar
-*.tar
-*.zip
-*.via
-*.tmp
-*.err
-# OS generated files #
-.DS_Store
-.DS_Store?
-._*
-.Spotlight-V100
-.Trashes
-Icon?
-ehthumbs.db
-Thumbs.db
+if [ -f $(brew --prefix)/etc/bash_completion ]; then
+. $(brew --prefix)/etc/bash_completion
+fi
 
 
 
