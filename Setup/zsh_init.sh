@@ -100,6 +100,9 @@ brew install zsh-completions
 fpath=(/usr/local/share/zsh-completions
 /usr/local/share/zsh/site-functions
 $fpath)
+autoload -Uz compinit
+rm -f ~/.zcompdump; compinit
+chmod go-w '/usr/local/share'
 
 # alien modify
 export ALIEN_THEME="red"
